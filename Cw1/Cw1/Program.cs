@@ -13,10 +13,14 @@ public class Program
         Console.WriteLine("Commit v2");
         Console.WriteLine("Commit w IDE");
         
-        
 
         //2. Complex
         //Student std;
         Console.WriteLine("Hello, World!");
+    }
+
+    public static void Calc(int a, int b)
+    {
+        int c = a + b;
     }
 }
