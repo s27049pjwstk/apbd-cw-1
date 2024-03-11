@@ -22,5 +22,6 @@ public class Program
     public static void Calc(int a, int b)
     {
         int c = a + b;
+        Console.WriteLine("hahaha");
     }
 }
