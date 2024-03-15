@@ -8,8 +8,7 @@ public class Cw1 {
         Console.WriteLine("Test Commit");
         Console.WriteLine("Commit v2");
         Console.WriteLine("Commit w IDE");
-        
-        
+
 
         //2. Complex
         //Student std;
@@ -28,5 +27,13 @@ public class Cw1 {
         }
 
         return (double)sum / input.Length;
+    }
+
+    public static int Max(int[] input) {
+        int output = input[0];
+        foreach (int i in input)
+            if (i > output)
+                output = i;
+        return output;
     }
 }
