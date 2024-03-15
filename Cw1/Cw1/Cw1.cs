@@ -1,4 +1,4 @@
-﻿public class Program
+public class Program
 {
     public static void Main(string[] args)
     {
@@ -10,16 +10,24 @@
         Console.WriteLine("Test Commit");
         Console.WriteLine("Commit v2");
         Console.WriteLine("Commit w IDE");
-        
+
 
         //2. Complex
         //Student std;
         Console.WriteLine("Hello, World!");
     }
 
-    public static void Calc(int a, int b)
-    {
+    public static void Calc(int a, int b) {
         int c = a + b;
         Console.WriteLine("hahaha");
+    }
+
+    public static double Avg(int[] input) {
+        int sum = 0;
+        foreach (int e in input) {
+            sum += e;
+        }
+
+        return (double)sum / input.Length;
     }
 }
