@@ -1,7 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-namespace Cw1;
-
 public class Cw1 {
     public static void Main(string[] args) {
         //1. Primitive
@@ -12,7 +8,8 @@ public class Cw1 {
         Console.WriteLine("Test Commit");
         Console.WriteLine("Commit v2");
         Console.WriteLine("Commit w IDE");
-
+        
+        
 
         //2. Complex
         //Student std;
