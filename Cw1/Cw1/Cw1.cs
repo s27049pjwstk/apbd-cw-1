@@ -22,8 +22,8 @@ public class Cw1 {
 
     public static double Avg(int[] input) {
         int sum = 0;
-        foreach (int temp in input) {
-            sum += temp;
+        foreach (int i in input) {
+            sum += i;
         }
 
         return (double)sum / input.Length;
