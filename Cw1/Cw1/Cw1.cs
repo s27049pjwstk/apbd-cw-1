@@ -24,8 +24,8 @@ public class Program
 
     public static double Avg(int[] input) {
         int sum = 0;
-        foreach (int e in input) {
-            sum += e;
+        foreach (int i in input) {
+            sum += i;
         }
 
         return (double)sum / input.Length;
