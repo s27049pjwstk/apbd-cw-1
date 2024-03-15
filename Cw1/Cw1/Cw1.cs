@@ -30,4 +30,12 @@ public class Program
 
         return (double)sum / input.Length;
     }
+
+    public static int Max(int[] input) {
+        int output = input[0];
+        foreach (int i in input)
+            if (i > output)
+                output = i;
+        return output;
+    }
 }
